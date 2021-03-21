@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Học toán tử</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var x = 10;
+		var y = 3;
+		//- TOÁN TỬ SỐ HỌC
+		console.log("x + y = "+(x+y));
+		console.log("x - y = "+(x-y));
+		console.log("x * y = "+(x*y));
+		console.log("x / y = "+(x/y));
+		console.log("x % y = "+(x%y));//chia lấy dư
+		x++;
+		z = x;
+		console.log("z = "+z);
+		console.log("y**3 = "+(y**3));//y mũ 3
+		//x ** y tương đương Math.pow(x,y)
+
+		//- TOÁN TỬ GÁN
+		var m = 3, n = 4, t = 2;
+		m = n;//m = 4, n = 4
+		console.log("m = "+m);
+		t += m;//t = t + m; t = 6
+		t -= m;//t = t - m
+		t *= m;//t = t * m
+		t /= m;//t = t / m
+		t %= m;//t = t % m
+
+		//TOÁN TỬ SO SÁNH
+		var a = 7, b = 3;
+		var k = (a == b);
+		console.log("value of k: "+k);
+		//tương tự cho các toán tử !=, >,>=,<,<=
+		//TOÁN TỬ LOGIC: &&,||, !
+		var tuoi = 18, gioitinh = "nam";
+		var kq = ((tuoi>=20)&&(gioitinh=="nam"));
+		if(kq==true){
+			console.log("Bạn đã đủ tuổi lấy vợ");
+		}
+		else{
+			console.log("Bạn vẫn còn trẻ");
+		}
+
+	</script>
+</body>
+</html>

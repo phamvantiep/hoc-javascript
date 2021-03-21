@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Học JavaScript</title>
+</head>
+<body>
+	<!--Nhúng JavaScript vào HTML có 2 cách:
+		- Cách 1: Sử dụng hàm và câu lệnh trong cặp thẻ <script>
+		- Cách 2: Sử dụng file JavaScript ở ngoài
+	-->
+	<script type="text/javascript">
+		//code được viết tại đây (hàm, câu lệnh)
+		//- Hiển thị dòng văn bản lên website
+		document.write("Chào mừng các bạn đến với khóa học TKW!");
+		//- Hiển thị hộp thoại thông báo
+		alert("Hôm nay học thực hành!");
+		//- Hiển thị dữ liệu lên màn hình console
+		console.log("CNTT13-01");
+		//- Giao tiếp với người dùng
+		var name = window.prompt("Bạn tên gì?");
+		document.write("Chào bạn: "+name);
+		//- Hỏi đáp người dùng
+		confirm("Bạn đi chơi không?");
+	</script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
